@@ -51,6 +51,6 @@ public class Player : MonoBehaviour
         passedTime = 0;
         }
         
-        cc.Move(dir * Time.deltaTime * 5);
+        cc.Move(dir * Time.deltaTime * 10);
     }
 }
